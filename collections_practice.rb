@@ -19,5 +19,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.collect {|word| word.split.delete_at(2).join}
+  array.collect {|word| word.split.delete_at(2)}
 end
