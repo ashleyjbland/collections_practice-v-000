@@ -22,3 +22,5 @@ def kesha_maker(array)
   kesha = []
   kesha << array.each {|word| word[2] = "$"}
 end
+kesha
+end
