@@ -19,5 +19,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.split.insert 2, "$".delete_at(3).join
+  array3.replace("$")
 end
