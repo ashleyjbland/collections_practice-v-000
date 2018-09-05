@@ -31,8 +31,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  plurals = []
-  plurals << array.collect {|word| word << "s"}
-  plurals[1].pop
-  plurals
+  if array[i] != array[2]
+  array.collect {|word| word << "s"}
+end
 end
