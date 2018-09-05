@@ -19,7 +19,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  kesha = []
-  kesha << array.each {|word| word[2] = "$"}
-  kesha
+  array.collect {|word| word[2] = "$"}
 end
